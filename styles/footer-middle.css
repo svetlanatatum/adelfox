@@ -1,0 +1,196 @@
+.footer__middle {
+  display: flex;
+  position: relative;
+  height: 315px;
+  background-color: #242a2f;
+  border-top: 1px solid #2c363c;
+}
+
+.footer__middle-content {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-middle-section1 {
+  width: 25%;
+}
+
+.footer-middle-section1-item {
+
+}
+
+.footer-middle-section1-h3 {
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #768896;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-middle-section1-p {
+  font-size: 13px;
+  margin-bottom: 10px;
+  overflow-wrap: break-word;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #768896;
+}
+
+.footer-middle-section1-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 15px;
+  border-bottom: 1px solid rgba(88,100,109,0.5);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #58646d;
+}
+
+.footer__logo-pic {
+  height: 50px;
+  width: 60px;
+  display: block;
+  float: left;
+  padding: 5px;
+}
+
+.footer__logo-text {
+  padding: 25px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #93a4b1;
+}
+
+.footer-middle-section2 {
+  width: 25%;
+}
+
+.footer-middle-section2-list {
+
+}
+
+.footer-middle-section2-item {
+  margin-bottom: 5px;
+  height: 62px
+}
+
+.footer-middle-section2-h2 {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #cfe7fa;
+}
+
+.footer__section2-square {
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #c1c1c1;
+}
+
+.footer-middle-section2-item:hover .footer__section2-square {
+  background-color: #49b5f6;
+}
+
+.footer-middle-section2-h3 {
+  overflow-wrap: break-word;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #768896;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.footer-middle-section2-item:hover .footer-middle-section2-h3 {
+  color: #cbccce;
+}
+
+.footer-middle-section2-h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #768896;
+  font-size: 11px;
+}
+
+.icon-plus {
+  display: none;
+}
+
+.footer-middle-section2-item:hover .icon-plus {
+  color: white;
+  display: block;
+  padding: 22px;
+} 
+
+.footer-middle-section3 {
+  width: 25%;
+}
+
+.footer-middle-section3-list {
+
+}
+
+
+.footer-middle-section3-h2 {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #cfe7fa;
+}
+
+.footer-middle-section3-tag {
+  display: inline-block;
+  margin: 3px;
+  padding: 10px;
+  background-color: #191c1f;
+  color: #4e5b64;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-middle-section4 {
+  width: 25%;
+}
+
+
+.footer-middle-section4-h2 {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #cfe7fa;
+}
+
+.footer-middle-section4-grid {
+  
+}
+
+.footer-middle-section4-grid-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__section4-square {
+  height: 80px;
+  width: 80px;
+  margin: 5px;
+  background-size: cover;
+}
+
+.preview1 {
+  background-image: url(https://images.unsplash.com/photo-1538489949601-cbabf5b0c105?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3806bdae2a65a3830ea6ea1f084610c3&auto=format&fit=crop&w=634&q=80);
+}
+
+.preview2 {
+  background-image: url(https://images.unsplash.com/photo-1538523396059-8145b69118c4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a33b59b20f6b6efcd88bdd73b1cb84c2&auto=format&fit=crop&w=500&q=60);
+}
+
+.preview3 {
+  background-image: url(https://images.unsplash.com/photo-1538547967136-e8ec509d18ba?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b3a0ce091ed2468a4257538130bca23a&auto=format&fit=crop&w=500&q=60);
+}
+
+.preview4 {
+  background-image: url(https://images.unsplash.com/photo-1538497007306-2ab36d3ef340?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7d2d299fde72e7e7116269c15714401f&auto=format&fit=crop&w=500&q=60);
+}
+
+.preview5 {
+  background-image: url(https://images.unsplash.com/photo-1538559119805-c14fe9bb3244?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c44e71bebf721a4d8a8457674d8cc7f6&auto=format&fit=crop&w=500&q=60);
+}
+
+.preview6 {
+  background-image: url(https://images.unsplash.com/photo-1538553465101-080e489c29d5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d36668046a8ed7a83f14ca2501b0ff5b&auto=format&fit=crop&w=500&q=60);
+}
