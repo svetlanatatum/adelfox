@@ -14,8 +14,6 @@ b {
 
 .navbar__logo-pic {
   display: block;
-  margin-top: 10px;
-  margin-left: 10%;
   padding: 10px;
   float: left;
 }
@@ -23,7 +21,6 @@ b {
 .navbar_logo-text {
   font-size: 35px;
   float: left;
-  margin-top: 20px;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
   color: #3d4d53;
@@ -33,12 +30,9 @@ b {
 .navbar__menu {
   display: flex;
   justify-content: flex-end;
-  padding: 30px;
-  margin-right: 10%;
 }
 
 .navbar__menu-item {
-  margin-right: 10px;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
   color: #9d9d9d;

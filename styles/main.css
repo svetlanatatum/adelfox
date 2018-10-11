@@ -3,14 +3,13 @@
 }
 
 .main__list {
-  margin-left: 10%;
   display: flex;
   padding: 50px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .main__list-item {
-  width: 200px;
+  width: 25%;
   padding: 20px;
   text-align: center;
 }
@@ -28,7 +27,6 @@
 .main__article {
   overflow-wrap: break-word;
   color: lightgray;
-  padding-bottom: 10px;
   font-size: 12px;
 }
 

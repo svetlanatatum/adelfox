@@ -4,20 +4,14 @@
   border-bottom: 1px solid #1f2529;
 }
 
-.footer__brands-content {
-  width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .footer__brands-list {
   display: flex;
   position: relative;
 }
 
 .footer__brands-item {
-  padding: 30px;
+  width: 9%;
+  padding: 26px;
   text-align: center;
 }
 
