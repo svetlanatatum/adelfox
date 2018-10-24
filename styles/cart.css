@@ -1,0 +1,15 @@
+.cart {
+  display: flex;
+  float: right;
+  padding: 5px;
+  font-size: 15px;
+  color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cart__badge {
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  color: #49b5f6;
+}

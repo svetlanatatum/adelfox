@@ -1,0 +1,12 @@
+.header-menu {
+  display: flex;
+  float: left;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-menu__item {
+  margin-right: 20px;
+  font-size: 15px;
+  color: lightgray;
+}

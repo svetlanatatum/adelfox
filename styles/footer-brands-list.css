@@ -1,0 +1,10 @@
+.footer-brands-list {
+  display: flex;
+  position: relative;
+}
+
+.footer-brands-list__item {
+  width: 9%;
+  padding: 26px;
+  text-align: center;
+}

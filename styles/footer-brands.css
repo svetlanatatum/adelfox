@@ -4,17 +4,6 @@
   border-bottom: 1px solid #1f2529;
 }
 
-.footer__brands-list {
-  display: flex;
-  position: relative;
-}
-
-.footer__brands-item {
-  width: 9%;
-  padding: 26px;
-  text-align: center;
-}
-
 .icon-google-plus,
 .icon-last-dot-fm,
 .icon-xbox,

@@ -1,0 +1,11 @@
+.footer-middle-section4-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-middle-section4-grid__item {
+  height: 80px;
+  width: 80px;
+  margin: 5px;
+  background-size: cover;
+}
