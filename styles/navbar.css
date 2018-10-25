@@ -1,13 +1,5 @@
-b {
-  font-weight: bold;
-}
-
 .navbar {
   width: 100%;
   height: 100px;
   box-shadow: 1px 1px 1px lightgray;
-}
-
-.icon-search {
-  color: #9d9d9d;
 }
