@@ -52,3 +52,14 @@
 .main-list__item:hover .main-list__plaque {
   background-color: #242a2f;
 }
+
+.icon-compass,
+.icon-credit-card,
+.icon-hangouts,
+.icon-laptop {
+  color: white;
+  font-size: 32px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px;
+}

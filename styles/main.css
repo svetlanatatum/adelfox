@@ -1,16 +1,6 @@
 .main {
   height: 350px;
-}
-
-.icon-compass,
-.icon-credit-card,
-.icon-hangouts,
-.icon-laptop {
-  color: white;
-  font-size: 32px;
-  display: flex;
-  justify-content: flex-end;
-  padding: 25px;
+  border-bottom: 1px solid lightgray;
 }
 
 
