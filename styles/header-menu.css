@@ -10,3 +10,8 @@
   font-size: 15px;
   color: lightgray;
 }
+
+.header-menu__icon {
+  margin-right: 5px;
+  color: #49b5f6;
+}

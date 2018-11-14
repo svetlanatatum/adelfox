@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./styles/slider-button-block.css"/>
     <link rel="stylesheet" href="./styles/main.css"/>
     <link rel="stylesheet" href="./styles/main-list.css"/>
+    <link rel="stylesheet" href="./styles/main-list-item.css"/>
     <link rel="stylesheet" href="./styles/features.css"/>
     <link rel="stylesheet" href="./styles/features-content.css"/>
     <link rel="stylesheet" href="./styles/features-article.css"/>
@@ -45,17 +46,25 @@
             <div class="container">
                 <ul class="header-menu">
                     <li class="header-menu__item">
-                        <span class="icon-mail"></span>
-                        tranmautritam@gmail.com</li>
+                        <span class="header-menu__icon">
+                            <span class="icon-mail"></span>
+                        </span>tranmautritam@gmail.com
+                    </li>
                     <li class="header-menu__item">
-                        <span class="icon-phone"></span>+84 935 815 989</li>
+                        <span class="header-menu__icon">
+                            <span class="icon-phone"></span>
+                        </span>+84 935 815 989
+                    </li>
                     <li class="header-menu__item">
-                        <span class="icon-skype"></span>
-                        mr.crazykv</li>
+                        <span class="header-menu__icon">
+                            <span class="icon-skype"></span>
+                        </span>mr.crazykv
+                    </li>
                 </ul>
                 <div class="cart">
-                    <span class="icon-cart"></span>
-                    Cart [ 
+                    <span class="cart__icon">
+                        <span class="icon-cart"></span>
+                    </span> Cart [ 
                     <span class="cart__badge">0</span> ] item
                 </div>
             </div>
@@ -67,14 +76,46 @@
                     <div class="navbar-logo__text">ADEL<b>FOX</b></div>
                 </div>
                 <ul class="navbar-menu">
-                    <li class="navbar-menu__item">Home<span class="icon-arrow_drop_down"></span></li>
-                    <li class="navbar-menu__item">Pages<span class="icon-arrow_drop_down"></span></li>
-                    <li class="navbar-menu__item">Portfolio<span class="icon-arrow_drop_down"></span></li>
-                    <li class="navbar-menu__item">Shop<span class="icon-arrow_drop_down"></span></li>
-                    <li class="navbar-menu__item">Blog<span class="icon-arrow_drop_down"></span></li>
-                    <li class="navbar-menu__item">Shortcodes<span class="icon-arrow_drop_down"></span></li>
-                    <li class="navbar-menu__item">Features<span class="icon-arrow_drop_down"></span></li>
-                    <li class="navbar-menu__item"><span class="icon-search"></span></li>
+                    <li class="navbar-menu__item">Home
+                        <span class="navbar-menu__icon">
+                            <span class="icon-arrow_drop_down"></span>
+                        </span>
+                    </li>
+                    <li class="navbar-menu__item">Pages
+                        <span class="navbar-menu__icon"> 
+                            <span class="icon-arrow_drop_down"></span>
+                        </span>
+                    </li>
+                    <li class="navbar-menu__item">Portfolio
+                        <span class="navbar-menu__icon">
+                            <span class="icon-arrow_drop_down"></span>
+                        </span>
+                    </li>
+                    <li class="navbar-menu__item">Shop
+                        <span class="navbar-menu__icon">
+                            <span class="icon-arrow_drop_down"></span>
+                        </span>
+                    </li>
+                    <li class="navbar-menu__item">Blog
+                        <span class="navbar-menu__icon">
+                            <span class="icon-arrow_drop_down"></span>
+                        </span>
+                    </li>
+                    <li class="navbar-menu__item">Shortcodes
+                        <span class="navbar-menu__icon">
+                            <span class="icon-arrow_drop_down"></span>
+                        </span>
+                    </li>
+                    <li class="navbar-menu__item">Features
+                        <span class="navbar-menu__icon">
+                            <span class="icon-arrow_drop_down"></span>
+                        </span>
+                    </li>
+                    <li class="navbar-menu__item">
+                        <span class="navbar-menu__icon">
+                            <span class="icon-search"></span>
+                        </span>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -99,40 +140,58 @@
         </div>
         <div class="main">
             <div class="container">
-                <ul class="main-list">
-                    <li class="main-list__item">
-                        <div class="main-list__plaque">
-                            <span class="icon-compass"></span>
+                <div class="main-list">
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="main-list-item">
+                                <div class="main-list-item__plaque">
+                                    <span class="main-list-item__icon">
+                                        <span class="icon-compass"></span>
+                                    </span>
+                                </div>
+                                <h1 class="main-list-item__h1">Clean and Unique Design</h1>
+                                <p class="main-list-item__article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                <a class="main-list-item__link" href="">learn more</a>
+                            </div>
                         </div>
-                        <h1 class="main-list__h1">Clean and Unique Design</h1>
-                        <p class="main-list__article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                        <a class="main-list__link" href="">learn more</a>
-                    </li>
-                    <li class="main-list__item">
-                        <div class="main-list__plaque">
-                            <span class="icon-credit-card"></span>
+                        <div class="col-sm">
+                            <div class="main-list-item">
+                                <div class="main-list-item__plaque">
+                                    <span class="main-list-item__icon">
+                                        <span class="icon-credit-card"></span>
+                                    </span>
+                                </div>
+                                <h1 class="main-list-item__h1">Amazing Online Store</h1>
+                                <p class="main-list-item__article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                <a class="main-list-item__link" href="">learn more</a>
+                            </div>
                         </div>
-                        <h1 class="main-list__h1">Amazing Online Store</h1>
-                        <p class="main-list__article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                        <a class="main-list__link" href="">learn more</a>
-                    </li>
-                    <li class="main-list__item">
-                        <div class="main-list__plaque">
-                            <span class="icon-hangouts"></span>
+                        <div class="col-sm">
+                            <div class="main-list-item">
+                                <div class="main-list-item__plaque">
+                                    <span class="main-list-item__icon">
+                                        <span class="icon-hangouts"></span>
+                                    </span>
+                                </div>
+                                <h1 class="main-list-item__h1">Shortcodes Ready</h1>
+                                <p class="main-list-item__article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                <a class="main-list-item__link" href="">learn more</a>
+                            </div>
                         </div>
-                        <h1 class="main-list__h1">Shortcodes Ready</h1>
-                        <p class="main-list__article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                        <a class="main-list__link" href="">learn more</a>
-                    </li>
-                    <li class="main-list__item">
-                        <div class="main-list__plaque">
-                            <span class="icon-laptop"></span>
+                        <div class="col-sm">
+                            <div class="main-list-item">
+                                <div class="main-list-item__plaque">
+                                    <span class="main-list-item__icon">
+                                        <span class="icon-laptop"></span>
+                                    </span>
+                                </div>
+                                <h1 class="main-list-item__h1">Responsive design</h1>
+                                <p class="main-list-item__article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                <a class="main-list-item__link" href="">learn more</a>
+                            </div>
                         </div>
-                        <h1 class="main-list__h1">Responsive design</h1>
-                        <p class="main-list__article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                        <a class="main-list__link" href="">learn more</a>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="features">
@@ -144,32 +203,56 @@
                     </div>
                     <ul class="features-list">
                         <li class="features-list__item">
-                            <div class="features-list__square"><span class="icon-leaf icon-leaf_features"></span></div>
+                            <div class="features-list__square">
+                                <span class="features-list__icon">
+                                    <span class="icon-leaf"></span>
+                                </span>
+                            </div>
                             <h3 class="features-list__h3">Unique and Modern Design</h3>
                             <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                         </li>
                         <li class="features-list__item">
-                            <div class="features-list__square"><span class="icon-laptop icon-laptop_features"></span></div>
+                            <div class="features-list__square">
+                                <span class="features-list__icon">
+                                    <span class="icon-laptop"></span>
+                                </span>
+                            </div>
                             <h3 class="features-list__h3">Responsive Design Ready</h3>
                             <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                         </li>
                         <li class="features-list__item">
-                            <div class="features-list__square"><span class="icon-compass icon-compass_features"></span></div>
+                            <div class="features-list__square">
+                                <span class="features-list__icon">
+                                    <span class="icon-compass"></span>
+                                </span>
+                            </div>
                             <h3 class="features-list__h3">Retina Ready</h3>
                             <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                         </li>
                         <li class="features-list__item">
-                            <div class="features-list__square"><span class="icon-credit-card icon-credit-card_features"></span></div>
+                            <div class="features-list__square">
+                                <span class="features-list__icon">
+                                    <span class="icon-credit-card"></span>
+                                </span>
+                            </div>
                             <h3 class="features-list__h3">Amazing Online Store</h3>
                             <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                         </li>
                         <li class="features-list__item">
-                            <div class="features-list__square"><span class="icon-search icon-search_features"></span></div>
+                            <div class="features-list__square">
+                                <span class="features-list__icon">
+                                    <span class="icon-search"></span>
+                                </span>
+                            </div>
                             <h3 class="features-list__h3">Vestibulus Blandit Faucibus</h3>
                             <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                         </li>
                         <li class="features-list__item">
-                            <div class="features-list__square"><span class="icon-leaf icon-leaf_features"></span></div>
+                            <div class="features-list__square">
+                                <span class="features-list__icon">
+                                    <span class="icon-leaf"></span>
+                                </span>
+                            </div>
                             <h3 class="features-list__h3">Laoreet Felis</h3>
                             <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                         </li>   
@@ -182,18 +265,66 @@
         <div class="footer__brands">
             <div class="container">
                 <ul class="footer-brands-list">
-                    <li class="footer-brands-list__item"><span class="icon-google-plus icon-google-plus_brands"></span></li>
-                    <li class="footer-brands-list__item"><span class="icon-linkedin2 icon-linkedin2_brands"></span></li>
-                    <li class="footer-brands-list__item"><span class="icon-last-dot-fm icon-last-dot-fm_brands"></span></li>
-                    <li class="footer-brands-list__item"><span class="icon-xbox icon-xbox_brands"></span></li>
-                    <li class="footer-brands-list__item"><span class="icon-leaf icon-leaf_brands"></span></li>
-                    <li class="footer-brands-list__item"><span class="icon-pinterest icon-pinterest_brands"></span></li>
-                    <li class="footer-brands-list__item"><span class="icon-youtube icon-youtube_brands"></span></li>
-                    <li class="footer-brands-list__item"><span class="icon-facebook icon-facebook_brands"></span></li>
-                    <li class="footer-brands-list__item"><span class="icon-twitter icon-twitter_brands"></span></li>
-                    <li class="footer-brands-list__item"><span class="icon-tumblr icon-tumblr_brands"></span></li>
-                    <li class="footer-brands-list__item"><span class="icon-linkedin2 icon-linkedin2_brands"></span></li>
-                    <li class="footer-brands-list__item"><span class="icon-leaf icon-leaf_brands"></span></li>
+                    <li class="footer-brands-list__item">
+                        <span class="footer-brands-list__icon">
+                            <span class="icon-google-plus"></span>
+                        </span>
+                    </li>
+                    <li class="footer-brands-list__item">
+                        <span class="footer-brands-list__icon">
+                            <span class="icon-linkedin2"></span>
+                        </span>
+                    </li>
+                    <li class="footer-brands-list__item">
+                        <span class="footer-brands-list__icon">
+                            <span class="icon-last-dot-fm"></span>
+                        </span>
+                    </li>
+                    <li class="footer-brands-list__item">
+                        <span class="footer-brands-list__icon">
+                            <span class="icon-xbox"></span>
+                        </span>
+                    </li>
+                    <li class="footer-brands-list__item">
+                        <span class="footer-brands-list__icon">
+                            <span class="icon-leaf"></span>
+                        </span>
+                    </li>
+                    <li class="footer-brands-list__item">
+                        <span class="footer-brands-list__icon">
+                            <span class="icon-pinterest"></span>
+                        </span>
+                    </li>
+                    <li class="footer-brands-list__item">
+                        <span class="footer-brands-list__icon">   
+                            <span class="icon-youtube"></span>
+                        </span>
+                    </li>
+                    <li class="footer-brands-list__item">
+                        <span class="footer-brands-list__icon">
+                            <span class="icon-facebook"></span>
+                        </span>
+                    </li>
+                    <li class="footer-brands-list__item">
+                        <span class="footer-brands-list__icon">
+                            <span class="icon-twitter"></span>
+                        </span>
+                    </li>
+                    <li class="footer-brands-list__item">
+                        <span class="footer-brands-list__icon">
+                            <span class="icon-tumblr"></span>
+                        </span>
+                    </li>
+                    <li class="footer-brands-list__item">
+                        <span class="footer-brands-list__icon">
+                            <span class="icon-linkedin2"></span>
+                        </span>
+                    </li>
+                    <li class="footer-brands-list__item">
+                        <span class="footer-brands-list__icon">
+                            <span class="icon-leaf"></span>
+                        </span>
+                    </li>
                 </ul>
             </div>
         </div>

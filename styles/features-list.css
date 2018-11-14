@@ -33,11 +33,7 @@
   font-size: 12px;
 }
 
-.icon-laptop_features,
-.icon-leaf_features,
-.icon-credit-card_features,
-.icon-compass_features,
-.icon-search_features {
+.features-list__icon {
   color: white;
   font-size: 22px;
   display: flex;
