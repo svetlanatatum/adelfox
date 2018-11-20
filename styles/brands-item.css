@@ -1,0 +1,9 @@
+.brands-item {
+  padding: 21px 0 21px 0;
+  text-align: center;
+}
+
+.brands-item__icon {
+  color: #a1a5a7;
+  font-size: 28px;
+}

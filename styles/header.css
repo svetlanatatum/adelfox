@@ -1,14 +1,4 @@
 .header {
-  position: relative;
-  width: 100%;
-  top: 0px;
-  height: 50px;
-  padding: 10px;
-  box-sizing: border-box;
   border-bottom: 3px solid lightgray;
   box-shadow: 1px 1px 1px lightgray;
  } 
-
-
- 
-

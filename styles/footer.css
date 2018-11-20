@@ -1,7 +1,20 @@
 .footer {
   position: relative;
-  height: 450px;
   right: 0;
   bottom: 0;
   left: 0;
+}
+
+.footer__top {
+  background-color: #242a2f;
+  border-bottom: 1px solid #1f2529;
+}
+
+.footer__middle {
+  background-color: #242a2f;
+  border-top: 1px solid #2c363c;
+} 
+
+.footer__bottom {
+  background-color: #191c1f;
 }
