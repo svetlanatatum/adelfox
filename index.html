@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./styles/header.css"/>
     <link rel="stylesheet" href="./styles/contacts.css"/>
     <link rel="stylesheet" href="./styles/cart.css"/>
+    <link rel="stylesheet" href="./styles/image.css"/>
+    <link rel="stylesheet" href="./styles/reasons.css"/>
     <link rel="stylesheet" href="./styles/navigation.css"/>
     <link rel="stylesheet" href="./styles/navigation-logo.css"/>
     <link rel="stylesheet" href="./styles/navigation-menu.css"/>
@@ -234,67 +236,109 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm">
-                    <div class="features-content">
+                        <div class="features-content">
+                            <div class="features-article">
+                                <h1 class="features-article__h1">Core Features of AdelFox</h1>
+                                <p class="features-article__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                            </div>
+                            <ul class="features-list">
+                                <li class="features-list__item">
+                                    <div class="features-list__square">
+                                        <span class="features-list__icon">
+                                            <span class="icon-leaf"></span>
+                                        </span>
+                                    </div>
+                                    <h3 class="features-list__h3">Unique and Modern Design</h3>
+                                    <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                </li>
+                                <li class="features-list__item">
+                                    <div class="features-list__square">
+                                        <span class="features-list__icon">
+                                            <span class="icon-laptop"></span>
+                                        </span>
+                                    </div>
+                                    <h3 class="features-list__h3">Responsive Design Ready</h3>
+                                    <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                </li>
+                                <li class="features-list__item">
+                                    <div class="features-list__square">
+                                        <span class="features-list__icon">
+                                            <span class="icon-compass"></span>
+                                        </span>
+                                    </div>
+                                    <h3 class="features-list__h3">Retina Ready</h3>
+                                    <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                </li>
+                                <li class="features-list__item">
+                                    <div class="features-list__square">
+                                        <span class="features-list__icon">
+                                            <span class="icon-credit-card"></span>
+                                        </span>
+                                    </div>
+                                    <h3 class="features-list__h3">Amazing Online Store</h3>
+                                    <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                </li>
+                                <li class="features-list__item">
+                                    <div class="features-list__square">
+                                        <span class="features-list__icon">
+                                            <span class="icon-search"></span>
+                                        </span>
+                                    </div>
+                                    <h3 class="features-list__h3">Vestibulus Blandit Faucibus</h3>
+                                    <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                </li>
+                                <li class="features-list__item">
+                                    <div class="features-list__square">
+                                        <span class="features-list__icon">
+                                            <span class="icon-leaf"></span>
+                                        </span>
+                                    </div>
+                                    <h3 class="features-list__h3">Laoreet Felis</h3>
+                                    <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                </li>   
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="reasons">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
                         <div class="features-article">
-                            <h1 class="features-article__h1">Core Features of AdelFox</h1>
+                            <h1 class="features-article__h1">Why Choose AdelFox</h1>
                             <p class="features-article__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                         </div>
-                        <ul class="features-list">
-                            <li class="features-list__item">
-                                <div class="features-list__square">
-                                    <span class="features-list__icon">
-                                        <span class="icon-leaf"></span>
-                                    </span>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="screen">
+                                    <img class="image" src="https://banner2.kisspng.com/20180404/bpq/kisspng-macbook-pro-imac-retina-display-apple-imac-5ac4c8614e7fc9.7703980715228457933215.jpg" alt="Why Choose AdelFox image" />
                                 </div>
-                                <h3 class="features-list__h3">Unique and Modern Design</h3>
-                                <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                            </li>
-                            <li class="features-list__item">
-                                <div class="features-list__square">
-                                    <span class="features-list__icon">
-                                        <span class="icon-laptop"></span>
-                                    </span>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="reasons-list" id="reasonsList">
+                                    <div class="reasons-list__item">
+                                        <div class="reasons-list__item-header" id="itemOne">
+                                            <button class="reasons-list__item-button" type="button" data-toggle="collapse" data-target="#reasonOne" aria-expanded="true" aria-controls="reasonOne">Collapsible Group Item #1</button>
+                                        </div>
+                                        <div class="reasons-list__item-content collapse show" id="reasonOne" aria-labelledby="itemOne" data-parent="#reasonsList"><div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div></div>
+                                    </div>
+                                    <div class="reasons-list__item">
+                                        <div class="reasons-list__item-header" id="itemTwo">
+                                            <button class="reasons-list__item-button" type="button" data-toggle="collapse" data-target="#reasonTwo" aria-expanded="true" aria-controls="reasonTwo">Collapsible Group Item #2</button>
+                                        </div>
+                                        <div class="reasons-list__item-content collapse" id="reasonTwo" aria-labelledby="itemTwo" data-parent="#reasonsList"><div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div></div>
+                                    </div>
+                                    <div class="reasons-list__item">
+                                        <div class="reasons-list__item-header" id="itemThree">
+                                            <button class="reasons-list__item-button" type="button" data-toggle="collapse" data-target="#reasonThree"aria-expanded="true" aria-controls="reasonThree">Collapsible Group Item #3</button>
+                                        </div>
+                                        <div class="reasons-list__item-content collapse" id="reasonThree" aria-labelledby="itemThree" data-parent="#reasonsList"><div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div></div>
+                                    </div>
                                 </div>
-                                <h3 class="features-list__h3">Responsive Design Ready</h3>
-                                <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                            </li>
-                            <li class="features-list__item">
-                                <div class="features-list__square">
-                                    <span class="features-list__icon">
-                                        <span class="icon-compass"></span>
-                                    </span>
-                                </div>
-                                <h3 class="features-list__h3">Retina Ready</h3>
-                                <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                            </li>
-                            <li class="features-list__item">
-                                <div class="features-list__square">
-                                    <span class="features-list__icon">
-                                        <span class="icon-credit-card"></span>
-                                    </span>
-                                </div>
-                                <h3 class="features-list__h3">Amazing Online Store</h3>
-                                <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                            </li>
-                            <li class="features-list__item">
-                                <div class="features-list__square">
-                                    <span class="features-list__icon">
-                                        <span class="icon-search"></span>
-                                    </span>
-                                </div>
-                                <h3 class="features-list__h3">Vestibulus Blandit Faucibus</h3>
-                                <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                            </li>
-                            <li class="features-list__item">
-                                <div class="features-list__square">
-                                    <span class="features-list__icon">
-                                        <span class="icon-leaf"></span>
-                                    </span>
-                                </div>
-                                <h3 class="features-list__h3">Laoreet Felis</h3>
-                                <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                            </li>   
-                        </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -499,5 +543,8 @@
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
