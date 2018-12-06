@@ -1,16 +1,16 @@
-.navbar-logo {
-  
+.navigation-logo {
+  overflow: hidden;
+  padding: 10px 0 10px 0;
 }
 
-.navbar-logo__pic {
+.navigation-logo__pic {
   display: block;
   float: left;
 }
 
-.navbar-logo__text {
+.navigation-logo__text {
   font-size: 32px;
   float: left;
-  
   font-family: Arial, Helvetica, sans-serif;
   color: #3d4d53;
 }

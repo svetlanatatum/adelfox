@@ -2,16 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ADELFOX</title>
     <link rel="stylesheet" href="./styles/reset.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
     <link rel="stylesheet" href="./styles/wrapper.css"/>
     <link rel="stylesheet" href="./styles/header.css"/>
-    <link rel="stylesheet" href="./styles/contacts-item.css"/>
+    <link rel="stylesheet" href="./styles/contacts.css"/>
     <link rel="stylesheet" href="./styles/cart.css"/>
-    <link rel="stylesheet" href="./styles/navbar.css"/>
-    <link rel="stylesheet" href="./styles/navbar-logo.css"/>
-    <link rel="stylesheet" href="./styles/navbar-menu.css"/>
+    <link rel="stylesheet" href="./styles/navigation.css"/>
+    <link rel="stylesheet" href="./styles/navigation-logo.css"/>
+    <link rel="stylesheet" href="./styles/navigation-menu.css"/>
+    <link rel="stylesheet" href="./styles/navigation-menu-item.css"/>
     <link rel="stylesheet" href="./styles/slider.css"/>
     <link rel="stylesheet" href="./styles/slider-article.css"/>
     <link rel="stylesheet" href="./styles/slider-block.css"/>
@@ -36,31 +38,30 @@
     <link rel="stylesheet" href="./styles/footer-middle-section4-grid.css"/>
     <link rel="stylesheet" href="./styles/bottom-copyright.css"/>
     <link rel="stylesheet" href="./styles/bottom-menu.css"/>
+    <link rel="stylesheet" href="./styles/bottom-menu-item.css"/>
 </head>
 <body>
     <div class="wrapper">
         <header class="header">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-3">
-                        <div class="contacts-item">
-                            <span class="contacts-item__icon">
-                                <span class="icon-mail"></span>
-                            </span>tranmautritam@gmail.com
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <div class="contacts-item">
-                            <span class="contacts-item__icon">
-                                <span class="icon-phone"></span>
-                            </span>+84 935 815 989
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <div class="contacts-item">
-                            <span class="contacts-item__icon">
-                                <span class="icon-skype"></span>
-                            </span>mr.crazykv
+                    <div class="col-sm-7">
+                        <div class="contacts">
+                            <div class="contacts__item">
+                                <span class="contacts__item-icon">
+                                    <span class="icon-mail"></span>
+                                </span>tranmautritam@gmail.com
+                            </div>
+                            <div class="contacts__item">
+                                <span class="contacts__item-icon">
+                                    <span class="icon-phone"></span>
+                                </span>+84 935 815 989
+                            </div>
+                            <div class="contacts__item">
+                                <span class="contacts__item-icon">
+                                    <span class="icon-skype"></span>
+                                </span>mr.crazykv
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-5">
@@ -74,93 +75,101 @@
                 </div>
             </div>
         </header>
-        <nav class="navbar">
+        <nav class="navigation">
             <div class="container">
                 <div class="row">
                     <div class="col-sm">
-                        <div class="navbar-logo">
-                            <img class="navbar-logo__pic" alt="adelfox logo" src="./styles/logo.png">
-                            <div class="navbar-logo__text">ADEL<b>FOX</b></div>
+                        <div class="navigation-logo">
+                            <img class="navigation-logo__pic" alt="adelfox logo" src="./styles/logo.png"/>
+                            <div class="navigation-logo__text">ADEL<b>FOX</b></div>
                         </div>
                     </div>
-                    <div class="col-sm">
-                        <div class="navbar-menu">
-                            <div class="col-sm">
-                                <div class="navbar-menu-item">Home
-                                    <span class="navbar-menu-item__icon">
-                                        <span class="icon-arrow_drop_down"></span>
-                                    </span>
+                    <div class="col-8">
+                        <div class="navigation-menu">
+                            <div class="row">
+                                <div class="col-sm">
+                                    <div class="navigation-menu-item">Home
+                                        <span class="navigation-menu-item__icon">
+                                            <span class="icon-arrow_drop_down"></span>
+                                        </span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm">
-                                <div class="navbar-menu-item">Pages
-                                    <span class="navbar-menu-item__icon"> 
-                                        <span class="icon-arrow_drop_down"></span>
-                                    </span>
+                                <div class="col-sm">
+                                    <div class="navigation-menu-item">Pages
+                                        <span class="navigation-menu-item__icon"> 
+                                            <span class="icon-arrow_drop_down"></span>
+                                        </span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm">
-                                <div class="navbar-menu-item">Portfolio
-                                    <span class="navbar-menu-item__icon">
-                                        <span class="icon-arrow_drop_down"></span>
-                                    </span>
+                                <div class="col-sm">
+                                    <div class="navigation-menu-item">Portfolio
+                                        <span class="navigation-menu-item__icon">
+                                            <span class="icon-arrow_drop_down"></span>
+                                        </span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm">
-                                <div class="navbar-menu-item">Shop
-                                    <span class="navbar-menu-item__icon">
-                                        <span class="icon-arrow_drop_down"></span>
-                                    </span>
+                                <div class="col-sm">
+                                    <div class="navigation-menu-item">Shop
+                                        <span class="navigation-menu-item__icon">
+                                            <span class="icon-arrow_drop_down"></span>
+                                        </span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm">
-                                <div class="navbar-menu-item">Blog
-                                    <span class="navbar-menu-item__icon">
-                                        <span class="icon-arrow_drop_down"></span>
-                                    </span>
+                                <div class="col-sm">
+                                    <div class="navigation-menu-item">Blog
+                                        <span class="navigation-menu-item__icon">
+                                            <span class="icon-arrow_drop_down"></span>
+                                        </span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm">
-                                <div class="navbar-menu-item">Shortcodes
-                                    <span class="navbar-menu-item__icon">
-                                        <span class="icon-arrow_drop_down"></span>
-                                    </span>
+                                <div class="col-sm">
+                                    <div class="navigation-menu-item">Shortcodes
+                                        <span class="navigation-menu-item__icon">
+                                            <span class="icon-arrow_drop_down"></span>
+                                        </span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm">
-                                <div class="navbar-menu-item">Features
-                                    <span class="navbar-menu-item__icon">
-                                        <span class="icon-arrow_drop_down"></span>
-                                    </span>
+                                <div class="col-sm">
+                                    <div class="navigation-menu-item">Features
+                                        <span class="navigation-menu-item__icon">
+                                            <span class="icon-arrow_drop_down"></span>
+                                        </span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm">
-                                <div class="navbar-menu-item">
-                                    <span class="navbar-menu-item__icon">
-                                        <span class="icon-search"></span>
-                                    </span>
+                                <div class="col-sm">
+                                    <div class="navigation-menu-item">
+                                        <span class="navigation-menu-item__icon">
+                                            <span class="icon-search"></span>
+                                        </span>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>   
+                            </div>   
+                        </div>
                     </div>
                 </div>
             </div>
         </nav>
         <div class="slider">
             <div class="container">
-                <div class="slider-block">
-                </div>
-                <div class="slider-article">
-                    <h2 class="slider-article__h2">we always</h2>
-                    <h1 class="slider-article__h1">create the magic</h1>
-                    <p class="slider-article__p">Create the difference is our job. We love all things design related. Please also we discover the colour of creativity.</p>
-                    <div class="slider-button-block">
-                        <button class="slider-button-block__button slider-button-block__button_active">
-                            purchase now
-                        </button>
-                        <button class="slider-button-block__button slider-button-block__button_passive">
-                            learn more
-                        </button>
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="slider-block">
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="slider-article">
+                            <h2 class="slider-article__h2">we always</h2>
+                            <h1 class="slider-article__h1">create the magic</h1>
+                            <p class="slider-article__p">Create the difference is our job. We love all things design related. Please also we discover the colour of creativity.</p>
+                            <div class="slider-button-block">
+                                <button class="slider-button-block__button slider-button-block__button_active">
+                                    purchase now
+                                </button>
+                                <button class="slider-button-block__button slider-button-block__button_passive">
+                                    learn more
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -223,67 +232,70 @@
         </div>
         <div class="features">
             <div class="container">
-                <div class="features-content">
-                    <div class="features-article">
-                        <h1 class="features-article__h1">Core Features of AdelFox</h1>
-                        <p class="features-article__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                <div class="row">
+                    <div class="col-sm">
+                    <div class="features-content">
+                        <div class="features-article">
+                            <h1 class="features-article__h1">Core Features of AdelFox</h1>
+                            <p class="features-article__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                        </div>
+                        <ul class="features-list">
+                            <li class="features-list__item">
+                                <div class="features-list__square">
+                                    <span class="features-list__icon">
+                                        <span class="icon-leaf"></span>
+                                    </span>
+                                </div>
+                                <h3 class="features-list__h3">Unique and Modern Design</h3>
+                                <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                            </li>
+                            <li class="features-list__item">
+                                <div class="features-list__square">
+                                    <span class="features-list__icon">
+                                        <span class="icon-laptop"></span>
+                                    </span>
+                                </div>
+                                <h3 class="features-list__h3">Responsive Design Ready</h3>
+                                <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                            </li>
+                            <li class="features-list__item">
+                                <div class="features-list__square">
+                                    <span class="features-list__icon">
+                                        <span class="icon-compass"></span>
+                                    </span>
+                                </div>
+                                <h3 class="features-list__h3">Retina Ready</h3>
+                                <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                            </li>
+                            <li class="features-list__item">
+                                <div class="features-list__square">
+                                    <span class="features-list__icon">
+                                        <span class="icon-credit-card"></span>
+                                    </span>
+                                </div>
+                                <h3 class="features-list__h3">Amazing Online Store</h3>
+                                <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                            </li>
+                            <li class="features-list__item">
+                                <div class="features-list__square">
+                                    <span class="features-list__icon">
+                                        <span class="icon-search"></span>
+                                    </span>
+                                </div>
+                                <h3 class="features-list__h3">Vestibulus Blandit Faucibus</h3>
+                                <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                            </li>
+                            <li class="features-list__item">
+                                <div class="features-list__square">
+                                    <span class="features-list__icon">
+                                        <span class="icon-leaf"></span>
+                                    </span>
+                                </div>
+                                <h3 class="features-list__h3">Laoreet Felis</h3>
+                                <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                            </li>   
+                        </ul>
                     </div>
-                    <ul class="features-list">
-                        <li class="features-list__item">
-                            <div class="features-list__square">
-                                <span class="features-list__icon">
-                                    <span class="icon-leaf"></span>
-                                </span>
-                            </div>
-                            <h3 class="features-list__h3">Unique and Modern Design</h3>
-                            <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                        </li>
-                        <li class="features-list__item">
-                            <div class="features-list__square">
-                                <span class="features-list__icon">
-                                    <span class="icon-laptop"></span>
-                                </span>
-                            </div>
-                            <h3 class="features-list__h3">Responsive Design Ready</h3>
-                            <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                        </li>
-                        <li class="features-list__item">
-                            <div class="features-list__square">
-                                <span class="features-list__icon">
-                                    <span class="icon-compass"></span>
-                                </span>
-                            </div>
-                            <h3 class="features-list__h3">Retina Ready</h3>
-                            <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                        </li>
-                        <li class="features-list__item">
-                            <div class="features-list__square">
-                                <span class="features-list__icon">
-                                    <span class="icon-credit-card"></span>
-                                </span>
-                            </div>
-                            <h3 class="features-list__h3">Amazing Online Store</h3>
-                            <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                        </li>
-                        <li class="features-list__item">
-                            <div class="features-list__square">
-                                <span class="features-list__icon">
-                                    <span class="icon-search"></span>
-                                </span>
-                            </div>
-                            <h3 class="features-list__h3">Vestibulus Blandit Faucibus</h3>
-                            <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                        </li>
-                        <li class="features-list__item">
-                            <div class="features-list__square">
-                                <span class="features-list__icon">
-                                    <span class="icon-leaf"></span>
-                                </span>
-                            </div>
-                            <h3 class="features-list__h3">Laoreet Felis</h3>
-                            <p class="features-list__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                        </li>   
-                    </ul>
                 </div>
             </div>
         </div>
@@ -456,27 +468,31 @@
                             Copyright &copy; 2013 - Designed by tranmautritam
                         </div>
                     </div>
-                    <div class="bottom-menu">
-                        <div class="col-sm">
-                            <div class="bottom-menu__item">Home</div>
-                        </div>
-                        <div class="col-sm">
-                            <div class="bottom-menu__item">Pages</div>
-                        </div>
-                        <div class="col-sm">
-                            <div class="bottom-menu__item">Portfolio</div>
-                        </div>
-                        <div class="col-sm">
-                            <div class="bottom-menu__item">Shop</div>
-                        </div>
-                        <div class="col-sm">
-                            <div class="bottom-menu__item">Blog</div>
-                        </div>
-                        <div class="col-sm">
-                            <div class="bottom-menu__item">Shortcodes</div>
-                        </div>
-                        <div class="col-sm">
-                            <div class="bottom-menu__item">Features</div>
+                    <div class="col-sm">
+                        <div class="bottom-menu">
+                            <div class="row">
+                                <div class="col-sm">
+                                    <div class="bottom-menu-item">Home</div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="bottom-menu-item">Pages</div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="bottom-menu-item">Portfolio</div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="bottom-menu-item">Shop</div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="bottom-menu-item">Blog</div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="bottom-menu-item">Shortcodes</div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="bottom-menu-item">Features</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
