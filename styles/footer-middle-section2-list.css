@@ -38,11 +38,11 @@
   font-size: 11px;
 }
 
-.icon-plus {
+.footer-middle-section2-list__square-icon {
   display: none;
 }
 
-.footer-middle-section2-list__item:hover .icon-plus {
+.footer-middle-section2-list__item:hover .footer-middle-section2-list__square-icon {
   color: white;
   display: block;
   padding: 22px;

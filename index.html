@@ -12,10 +12,13 @@
     <link rel="stylesheet" href="./styles/cart.css"/>
     <link rel="stylesheet" href="./styles/image.css"/>
     <link rel="stylesheet" href="./styles/reasons.css"/>
+    <link rel="stylesheet" href="./styles/reasons-list.css"/>
+    <link rel="stylesheet" href="./styles/reasons-article.css"/>
     <link rel="stylesheet" href="./styles/navigation.css"/>
     <link rel="stylesheet" href="./styles/navigation-logo.css"/>
     <link rel="stylesheet" href="./styles/navigation-menu.css"/>
     <link rel="stylesheet" href="./styles/navigation-menu-item.css"/>
+    <link rel="stylesheet" href="./styles/screen.css"/>
     <link rel="stylesheet" href="./styles/slider.css"/>
     <link rel="stylesheet" href="./styles/slider-article.css"/>
     <link rel="stylesheet" href="./styles/slider-block.css"/>
@@ -318,35 +321,56 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm">
-                        <div class="features-article">
-                            <h1 class="features-article__h1">Why Choose AdelFox</h1>
-                            <p class="features-article__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                        <div class="reasons-article">
+                            <h1 class="reasons-article__h1">Why Choose AdelFox</h1>
+                            <p class="reasons-article__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                         </div>
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="screen">
-                                    <img class="image" src="http://pluspng.com/img-png/imac-vector-png-ice-labs-digital-agency-imac-monitor-png-1880.png" alt="Why Choose AdelFox image" />
+                                    <img class="screen__img" src="http://pluspng.com/img-png/imac-vector-png-ice-labs-digital-agency-imac-monitor-png-1880.png" alt="Why Choose AdelFox image" />
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="reasons-list" id="reasonsList">
                                     <div class="reasons-list__item">
-                                        <div class="reasons-list__item-header" id="itemOne">
+                                        <div class="reasons-list__item-square">
+                                            <span class="reasons-list__item-icon">
+                                                <span class="icon-plus"></span>
+                                            </span>
+                                        </div>
+                                        <div class="reasons-list__item-header" id="itemOne"> 
                                             <button class="reasons-list__item-button" type="button" data-toggle="collapse" data-target="#reasonOne" aria-expanded="true" aria-controls="reasonOne">Collapsible Group Item #1</button>
                                         </div>
-                                        <div class="reasons-list__item-content collapse show" id="reasonOne" aria-labelledby="itemOne" data-parent="#reasonsList"><div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div></div>
+                                        <div class="reasons-list__item-content collapse show" id="reasonOne" aria-labelledby="itemOne" data-parent="#reasonsList">
+                                            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</div>
+                                        </div>
                                     </div>
                                     <div class="reasons-list__item">
+                                        <div class="reasons-list__item-square">
+                                            <span class="reasons-list__item-icon">
+                                                <span class="icon-plus"></span>
+                                            </span>
+                                        </div>
                                         <div class="reasons-list__item-header" id="itemTwo">
                                             <button class="reasons-list__item-button" type="button" data-toggle="collapse" data-target="#reasonTwo" aria-expanded="true" aria-controls="reasonTwo">Collapsible Group Item #2</button>
                                         </div>
-                                        <div class="reasons-list__item-content collapse" id="reasonTwo" aria-labelledby="itemTwo" data-parent="#reasonsList"><div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div></div>
+                                        <div class="reasons-list__item-content collapse" id="reasonTwo" aria-labelledby="itemTwo" data-parent="#reasonsList">
+                                            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</div>
+                                        </div>
                                     </div>
                                     <div class="reasons-list__item">
+                                        <div class="reasons-list__item-square">
+                                            <span class="reasons-list__item-icon">
+                                                <span class="icon-plus"></span>
+                                            </span>
+                                        </div>
                                         <div class="reasons-list__item-header" id="itemThree">
                                             <button class="reasons-list__item-button" type="button" data-toggle="collapse" data-target="#reasonThree"aria-expanded="true" aria-controls="reasonThree">Collapsible Group Item #3</button>
                                         </div>
-                                        <div class="reasons-list__item-content collapse" id="reasonThree" aria-labelledby="itemThree" data-parent="#reasonsList"><div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div></div>
+                                        <div class="reasons-list__item-content collapse" id="reasonThree" aria-labelledby="itemThree" data-parent="#reasonsList">
+                                            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -465,17 +489,29 @@
                                 <h2 class="footer-middle-section2__h2">Recent Posts</h2>
                                 <ul class="footer-middle-section2-list">
                                     <li class="footer-middle-section2-list__item">
-                                        <div class="footer-middle-section2-list__square"><span class="icon-plus"></span></div>
+                                        <div class="footer-middle-section2-list__square">
+                                            <span class="footer-middle-section2-list__square-icon">
+                                                <span class="icon-plus"></span>
+                                            </span>
+                                        </div>
                                         <h3 class="footer-middle-section2-list__h3">Lorem ipsum dolor sit amet consectetur adipiscing elit</h3>
                                         <h5 class="footer-middle-section2-list__h5">October 15,2013</h5>  
                                     </li>
                                     <li class="footer-middle-section2-list__item">
-                                        <div class="footer-middle-section2-list__square"><span class="icon-plus"></span></div>
+                                        <div class="footer-middle-section2-list__square">
+                                            <span class="footer-middle-section2-list__square-icon">
+                                                <span class="icon-plus"></span>
+                                            </span>
+                                        </div>
                                         <h3 class="footer-middle-section2-list__h3">Lorem ipsum dolor sit amet consectetur adipiscing elit</h3>
                                         <h5 class="footer-middle-section2-list__h5">October 15,2013</h5>  
                                     </li>
                                     <li class="footer-middle-section2-list__item">
-                                        <div class="footer-middle-section2-list__square"><span class="icon-plus"></span></div>
+                                        <div class="footer-middle-section2-list__square">
+                                            <span class="footer-middle-section2-list__square-icon">
+                                                <span class="icon-plus"></span>
+                                            </span>
+                                        </div>
                                         <h3 class="footer-middle-section2-list__h3">Lorem ipsum dolor sit amet consectetur adipiscing elit</h3>
                                         <h5 class="footer-middle-section2-list__h5">October 15,2013</h5>  
                                     </li>

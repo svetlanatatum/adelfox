@@ -1,0 +1,17 @@
+.reasons-article {
+  text-align: center;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.reasons-article__h1 {
+  font-size: 26px;
+  color: #3d4d53;
+}
+
+.reasons-article__p {
+  font-size: 15px;
+  color: darkgrey;
+}
