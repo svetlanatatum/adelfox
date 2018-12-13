@@ -6,17 +6,23 @@
   padding: 10px 0 10px 0;
 }
 
-.reasons-list__item-header {
-  
-}
-
-.reasons-list__item-button {
-  height: 50px;
-  width: 90%;
-  color: #90a1ae;
+.reasons-list__item-header,
+.reasons-list__item-header:active,
+.reasons-list__item-header:focus {
+  width: 100%;
+  display: flex;
+  align-items: center;
   background-color: #f8f9fa;
   border-color: #dce7ec;
+  padding: 0;
+  outline: none;
+  box-shadow: 0;
+}
+
+.reasons-list__item-title {
+  color: #90a1ae;
   text-align: left;
+  padding-left: 10px;
 }
 
 .reasons-list__item-content {
@@ -27,37 +33,43 @@
 
 .reasons-list__item-square {
   height: 50px;
-  width: 50px;
-  float: left;
-  background-color: #f8f9fa;
-  border: 1px solid #dce7ec;
-  border-right: 0;
-}
-
-/*
-.reasons-list__item-square {
+  width: 51px;
+  border-right: 1px solid #dce7ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #49b5f6;
 }
-*/
+
+.collapsed .reasons-list__item-square {
+  background-color: transparent;
+}
 
 .reasons-list__item-icon {
   display: block;
   font-size: 12px;
-  padding: 18px;
+  color: white;
+}
+
+.collapsed .reasons-list__item-icon {
   color: #90a1ae;
 }
 
-/*
-.reasons-list__item-minus {
+.reasons-list__item-icon_open {
   display: none;
 }
 
-.reasons-list__item-minus {
-  width: 20px;
-  height: 5px;
-  color: white;
+.reasons-list__item-icon_closed {
+  display: block;
 }
-*/
+
+.collapsed .reasons-list__item-icon_open {
+  display: block;
+}
+
+.collapsed .reasons-list__item-icon_closed {
+  display: none;
+}
 
 :focus {
   outline-style: none;

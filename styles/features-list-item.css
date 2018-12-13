@@ -10,6 +10,9 @@
   margin-right: 10px;
   margin-bottom: 20px;
   background-color: #49b5f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .features-list-item__h3 {
@@ -29,7 +32,4 @@
 .features-list-item__icon {
   color: white;
   font-size: 22px;
-  display: flex;
-  justify-content: flex-end;
-  padding: 20px;
 }

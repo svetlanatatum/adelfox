@@ -1,3 +1,5 @@
 .slider {
   background-color:#5d9090;
+  height: 350px;
+  overflow: hidden;
 }

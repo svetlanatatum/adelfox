@@ -14,6 +14,9 @@
   margin-left: 10px;
   margin-right: 10px;
   background-color: #c1c1c1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-middle-section2-list__item:hover .footer-middle-section2-list__square {
@@ -45,5 +48,4 @@
 .footer-middle-section2-list__item:hover .footer-middle-section2-list__square-icon {
   color: white;
   display: block;
-  padding: 22px;
 }
