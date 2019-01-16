@@ -1,0 +1,18 @@
+.carousel-indicators {
+    right: 5%;
+    left: inherit;
+}
+  
+.carousel-indicators .active {
+    background-color: #49b5f6;
+    border: solid 3px white;
+}
+  
+.carousel-indicators li {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
