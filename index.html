@@ -6,44 +6,48 @@
     <title>ADELFOX</title>
     <link rel="stylesheet" href="./styles/reset.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="./styles/wrapper.css"/>
-    <link rel="stylesheet" href="./styles/header.css"/>
-    <link rel="stylesheet" href="./styles/contacts.css"/>
-    <link rel="stylesheet" href="./styles/cart.css"/>
-    <link rel="stylesheet" href="./styles/image.css"/>
-    <link rel="stylesheet" href="./styles/reasons.css"/>
-    <link rel="stylesheet" href="./styles/reasons-list.css"/>
-    <link rel="stylesheet" href="./styles/reasons-article.css"/>
-    <link rel="stylesheet" href="./styles/navigation.css"/>
-    <link rel="stylesheet" href="./styles/navigation-logo.css"/>
-    <link rel="stylesheet" href="./styles/navigation-menu.css"/>
-    <link rel="stylesheet" href="./styles/navigation-menu-item.css"/>
-    <link rel="stylesheet" href="./styles/screen.css"/>
-    <link rel="stylesheet" href="./styles/slider.css"/>
-    <link rel="stylesheet" href="./styles/slider-article.css"/>
-    <link rel="stylesheet" href="./styles/slider-block.css"/>
-    <link rel="stylesheet" href="./styles/slider-button-block.css"/>
-    <link rel="stylesheet" href="./styles/main.css"/>
-    <link rel="stylesheet" href="./styles/main-list.css"/>
-    <link rel="stylesheet" href="./styles/main-list-item.css"/>
-    <link rel="stylesheet" href="./styles/features.css"/>
-    <link rel="stylesheet" href="./styles/features-article.css"/>
-    <link rel="stylesheet" href="./styles/features-list.css"/>
-    <link rel="stylesheet" href="./styles/features-list-item.css"/>
-    <link rel="stylesheet" href="./styles/icomoon.css"/>
-    <link rel="stylesheet" href="./styles/footer.css"/>
+    <link rel="stylesheet" href="./styles/bottom-copyright.css"/>
+    <link rel="stylesheet" href="./styles/bottom-menu-item.css"/>
+    <link rel="stylesheet" href="./styles/bottom-menu.css"/>
     <link rel="stylesheet" href="./styles/brands-item.css"/>
+    <link rel="stylesheet" href="./styles/cart.css"/>
+    <link rel="stylesheet" href="./styles/carousel-button.css"/>
+    <link rel="stylesheet" href="./styles/carousel-indicators.css"/>
+    <link rel="stylesheet" href="./styles/contacts.css"/>
+    <link rel="stylesheet" href="./styles/features-article.css"/>
+    <link rel="stylesheet" href="./styles/features-list-item.css"/>
+    <link rel="stylesheet" href="./styles/features-list.css"/>
+    <link rel="stylesheet" href="./styles/features.css"/>
     <link rel="stylesheet" href="./styles/footer-middle-content.css"/>
     <link rel="stylesheet" href="./styles/footer-middle-section1.css"/>
-    <link rel="stylesheet" href="./styles/footer-middle-section2.css"/>
     <link rel="stylesheet" href="./styles/footer-middle-section2-list.css"/>
-    <link rel="stylesheet" href="./styles/footer-middle-section3.css"/>
+    <link rel="stylesheet" href="./styles/footer-middle-section2.css"/>
     <link rel="stylesheet" href="./styles/footer-middle-section3-list.css"/>
-    <link rel="stylesheet" href="./styles/footer-middle-section4.css"/>
+    <link rel="stylesheet" href="./styles/footer-middle-section3.css"/>
     <link rel="stylesheet" href="./styles/footer-middle-section4-grid.css"/>
-    <link rel="stylesheet" href="./styles/bottom-copyright.css"/>
-    <link rel="stylesheet" href="./styles/bottom-menu.css"/>
-    <link rel="stylesheet" href="./styles/bottom-menu-item.css"/>
+    <link rel="stylesheet" href="./styles/footer-middle-section4.css"/>
+    <link rel="stylesheet" href="./styles/footer.css"/>
+    <link rel="stylesheet" href="./styles/header.css"/>
+    <link rel="stylesheet" href="./styles/icomoon.css"/>
+    <link rel="stylesheet" href="./styles/image.css"/>
+    <link rel="stylesheet" href="./styles/main-list-item.css"/>
+    <link rel="stylesheet" href="./styles/main-list.css"/>
+    <link rel="stylesheet" href="./styles/main.css"/>
+    <link rel="stylesheet" href="./styles/navigation-logo.css"/>
+    <link rel="stylesheet" href="./styles/navigation-menu-item.css"/>
+    <link rel="stylesheet" href="./styles/navigation-menu.css"/>
+    <link rel="stylesheet" href="./styles/navigation.css"/>
+    <link rel="stylesheet" href="./styles/positioned-media.css"/>
+    <link rel="stylesheet" href="./styles/reasons-article.css"/>
+    <link rel="stylesheet" href="./styles/reasons-list.css"/>
+    <link rel="stylesheet" href="./styles/reasons.css"/>
+    <link rel="stylesheet" href="./styles/screen.css"/>
+    <link rel="stylesheet" href="./styles/slider-article.css"/>
+    <link rel="stylesheet" href="./styles/slider-background.css"/>
+    <link rel="stylesheet" href="./styles/slider-block.css"/>
+    <link rel="stylesheet" href="./styles/slider-button-block.css"/>
+    <link rel="stylesheet" href="./styles/slider.css"/>
+    <link rel="stylesheet" href="./styles/wrapper.css"/>
 </head>
 <body>
     <div class="wrapper">
@@ -154,32 +158,67 @@
                 </div>
             </div>
         </nav>
-        <div class="slider">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-8">
-                        <div class="slider-block">
-                            <img class="slider-block__img"
-                            src="http://myapptemplates.com/wp-content/uploads/2014/08/Filters-iPhone-App-Template-iOS-half-shot.png" alt="Mobile view" />
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="slider-article">
-                            <h2 class="slider-article__h2">we always</h2>
-                            <h1 class="slider-article__h1">create the magic</h1>
-                            <p class="slider-article__p">Create the difference is our job. We love all things design related. Please also we discover the colour of creativity.</p>
-                            <div class="slider-button-block">
-                                <button class="slider-button-block__button slider-button-block__button_active">
-                                    purchase now
-                                </button>
-                                <button class="slider-button-block__button slider-button-block__button_passive">
-                                    learn more
-                                </button>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="slider">
+                        <div class="slider-background">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="slider-block">
+                                            <img class="slider-block__img"
+                                            src="http://myapptemplates.com/wp-content/uploads/2014/08/Filters-iPhone-App-Template-iOS-half-shot.png" alt="Mobile view" />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="slider-article">
+                                            <h2 class="slider-article__h2">we always</h2>
+                                            <h1 class="slider-article__h1">create the magic</h1>
+                                            <p class="slider-article__p">We discover the colour of creativity.<br/>Create the difference is our job.<br/> We love all things design related.</p>
+                                            <div class="slider-button-block">
+                                                <button class="slider-button-block__button slider-button-block__button_active">
+                                                    purchase now
+                                                </button>
+                                                <button class="slider-button-block__button slider-button-block__button_passive">
+                                                    learn more
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="carousel-item">
+                    <div class="slider">
+                        <div class="positioned-media">
+                            <img class="positioned-media__image" src="https://images.unsplash.com/photo-1545148452-9984cb57f21f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="Second slide">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="slider">
+                        <div class="positioned-media">
+                            <img class="positioned-media__image" src="https://images.unsplash.com/photo-1545147041-5f57baf01cbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="Third slide">
+                        </div>
+                    </div>
+                </div>
             </div>
+            <a class="carousel-control-prev carousel-button" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next carousel-button" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
         <div class="main">
             <div class="container">
@@ -344,11 +383,11 @@
                                                 </span>
                                             </div>
                                             <div class="reasons-list__item-title" id="itemOne"> 
-                                                Collapsible Group Item #1
+                                                Vestibulum pulvinar lobortis
                                             </div>
                                         </button>
                                         <div class="reasons-list__item-content collapse show" id="reasonOne" aria-labelledby="itemOne" data-parent="#reasonsList">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                                Maecenas tempus congue ante id sagittis. Curabitur ex magna, iaculis id aliquam nec, dignissim eu erat. Interdum et malesuada fames ac ante ipsum primis in faucibus.
                                         </div>
                                     </div>
                                     <div class="reasons-list__item">  
@@ -362,11 +401,11 @@
                                                 </span>
                                             </div>
                                             <div class="reasons-list__item-title" id="itemTwo"> 
-                                                Collapsible Group Item #1
+                                                Maecenas eros urna
                                             </div>
                                         </button>
                                         <div class="reasons-list__item-content collapse" id="reasonTwo" aria-labelledby="itemTwo" data-parent="#reasonsList">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                                Nunc vel mauris molestie, ullamcorper mi vitae, ornare lectus. Proin porta tempor metus, ac pulvinar arcu tincidunt eget.
                                         </div>
                                     </div>
                                     <div class="reasons-list__item">  
@@ -380,11 +419,11 @@
                                                 </span>
                                             </div>
                                             <div class="reasons-list__item-title" id="itemThree"> 
-                                                Collapsible Group Item #1
+                                                Aliquam auctor massa sed
                                             </div>
                                         </button>
                                         <div class="reasons-list__item-content collapse" id="reasonThree" aria-labelledby="itemThree" data-parent="#reasonsList">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                                Suspendisse tincidunt arcu sed lacus accumsan accumsan. Praesent sodales augue et velit congue, quis fermentum ligula aliquet.
                                         </div>
                                     </div>
                                 </div>
