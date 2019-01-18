@@ -4,5 +4,36 @@
     height: 50px;
     top: 50%;
     border-radius: 2px;
-    background-color: rgba(0,0,0,0.5); 
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-button_next {
+    right: 0;
+}
+
+.carousel-button_prev {
+    left: 0;
+}
+
+.carousel-button__icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.carousel-button__icon_next {
+    
+}
+
+.carousel-button__icon_prev {
+    
 }
