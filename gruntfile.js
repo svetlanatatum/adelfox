@@ -2,6 +2,17 @@ module.exports = function(grunt) {
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        htmlmin: {
+            dist: {
+              options: {
+                removeComments: true,
+                collapseWhitespace: true
+              },
+              files: {
+                'index.html': 'index.html',
+              }
+            }
+        },
         sass: {
             dist: {
               files: {
@@ -22,6 +33,7 @@ module.exports = function(grunt) {
 
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-contrib-htmlmin');
 
-    grunt.registerTask('default', ['sass', 'watch']);
+    grunt.registerTask('default', ['sass', 'htmlmin', 'watch']);
 };
