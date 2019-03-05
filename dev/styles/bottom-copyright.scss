@@ -1,6 +1,8 @@
+@import "_utils";
+
 .bottom-copyright {
   padding: 15px 0 15px 0;
   font-family: Arial, Helvetica, sans-serif;
-  color: #59656e;
+  color: $bottom-menu;
   font-size: 15px;
 }

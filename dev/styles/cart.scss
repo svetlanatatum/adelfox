@@ -1,3 +1,5 @@
+@import "_utils/colors";
+
 .cart {
   float: right;
   padding: 10px 0 10px 0;
@@ -10,9 +12,9 @@
   font-weight: bold;
   font-size: 15px;
   text-align: center;
-  color: #49b5f6;
+  color: $primary-color;
 }
 
 .cart__icon {
-  color: #49b5f6;
+  color: $primary-color;
 }

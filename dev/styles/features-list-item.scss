@@ -1,3 +1,5 @@
+@import "_utils";
+
 .features-list-item {
   padding: 10px 0 10px 0;
 }
@@ -9,7 +11,7 @@
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
-  background-color: #49b5f6;
+  background-color: $primary-color;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,19 +20,19 @@
 .features-list-item__h3 {
   overflow-wrap: break-word;
   font-family: Arial, Helvetica, sans-serif;
-  color: #3d4d53;
+  color: $header-color;
   margin-bottom: 10px;
   font-size: 15px;
 }
 
 .features-list-item__p {
   overflow-wrap: break-word;
-  color: lightgray;
+  color: $lightgray;
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .features-list-item__icon {
-  color: white;
+  color: $white;
   font-size: 22px;
 }

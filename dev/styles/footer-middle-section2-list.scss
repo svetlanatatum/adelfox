@@ -1,3 +1,5 @@
+@import "_utils";
+
 .footer-middle-section2-list {
 
 }
@@ -20,13 +22,13 @@
 }
 
 .footer-middle-section2-list__item:hover .footer-middle-section2-list__square {
-  background-color: #49b5f6;
+  background-color: $primary-color;
 }
 
 .footer-middle-section2-list__h3 {
   overflow-wrap: break-word;
   font-family: Arial, Helvetica, sans-serif;
-  color: #768896;
+  color: $footer-middle-section_h;
   margin-bottom: 10px;
   font-size: 13px;
 }
@@ -37,7 +39,7 @@
 
 .footer-middle-section2-list__h5 {
   font-family: Arial, Helvetica, sans-serif;
-  color: #768896;
+  color: $footer-middle-section_h;
   font-size: 11px;
 }
 

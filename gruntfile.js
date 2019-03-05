@@ -25,7 +25,7 @@ module.exports = function(grunt) {
                 livereload: true,
             },
             css: {
-                files: ['dev/styles/*.scss'],
+                files: ['dev/styles/**/*.scss'],
                 tasks: ['sass'],
                 options: {
                     spawn: false,
@@ -39,7 +39,7 @@ module.exports = function(grunt) {
                 }
             },
             imagemin: {
-                files: ['dev/*.html'],
+                files: ['**/*.{png,jpg,gif}'],
                 tasks: ['imagemin'],
                 options: {
                     spawn: false,

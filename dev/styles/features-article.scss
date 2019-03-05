@@ -1,3 +1,5 @@
+@import "_utils";
+
 .features-article {
   text-align: center;
   width: 40%;
@@ -9,7 +11,7 @@
 
 .features-article__h1 {
   font-size: 26px;
-  color: #3d4d53;
+  color: $header-color;
 }
 
 .features-article__p {

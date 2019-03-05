@@ -1,17 +1,17 @@
 .navigation-logo {
   display: flex;
-  padding: 10px 0 10px 0;
+  padding: 15px 0 10px 0;
 }
 
 .navigation-logo__pic {
   display: block;
+  height: 58px;
 }
 
 .navigation-logo__text {
   font-size: 32px;
   font-family: Arial, Helvetica, sans-serif;
-  color: #3d4d53;
-  padding: 15px 0 15px 0;
+  color: $header-color;
 }
 
 b {

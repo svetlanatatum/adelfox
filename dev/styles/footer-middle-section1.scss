@@ -1,3 +1,5 @@
+@import "_utils";
+
 .footer-middle-section1 {
   
 }
@@ -5,7 +7,7 @@
 .footer-middle-section1__h3 {
   font-size: 13px;
   margin-bottom: 10px;
-  color: #768896;
+  color: $footer-middle-section_h;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -14,7 +16,7 @@
   margin-bottom: 10px;
   overflow-wrap: break-word;
   font-family: Arial, Helvetica, sans-serif;
-  color: #768896;
+  color: $footer-middle-section_p;
 }
 
 .footer-middle-section1__link {

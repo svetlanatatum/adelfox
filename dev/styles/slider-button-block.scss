@@ -1,3 +1,5 @@
+@import "_utils/colors";
+
 .slider-button-block {
   height: 40px;
   font-family: Arial, Helvetica, sans-serif;
@@ -15,7 +17,7 @@
 }
 
 .slider-button-block__button_active {
-  background-color: #49b5f6;
+  background-color: $primary-color;
   margin-right: 15px;
 }
 
