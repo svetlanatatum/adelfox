@@ -1,3 +1,5 @@
+@import "_utils";
+
 .footer-middle-section2 {
   
 }
@@ -6,5 +8,5 @@
   font-size: 18px;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  color: #cfe7fa;
+  color: $color-cfe7fa;
 }

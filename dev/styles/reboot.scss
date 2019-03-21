@@ -1,3 +1,5 @@
+@import "_utils";
+
 *,
 *::before,
 *::after {
@@ -21,9 +23,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: $color-212529;
   text-align: left;
-  background-color: #fff;
+  background-color: $color-fff;
 }
 
 [tabindex="-1"]:focus {
@@ -115,13 +117,13 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: $color-007bff;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #0056b3;
+  color: $color-0056b3;
   text-decoration: underline;
 }
 
@@ -174,7 +176,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #6c757d;
+  color: $color-6c757d;
   text-align: left;
   caption-side: bottom;
 }
@@ -278,7 +280,7 @@ legend {
   font-size: 1.5rem;
   line-height: inherit;
   color: inherit;
-  white-space: normal;
+  $color-fff-space: normal;
 }
 
 progress {

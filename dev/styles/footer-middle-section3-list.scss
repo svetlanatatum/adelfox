@@ -1,3 +1,5 @@
+@import "_utils";
+
 .footer-middle-section3-list {
 
 }
@@ -6,7 +8,7 @@
   display: inline-block;
   margin: 3px;
   padding: 5px;
-  background-color: #191c1f;
-  color: #4e5b64;
+  background-color: $color-191c1f;
+  color: $color-4e5b64;
   font-family: Arial, Helvetica, sans-serif;
 }

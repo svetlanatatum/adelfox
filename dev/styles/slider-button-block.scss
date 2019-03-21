@@ -1,4 +1,4 @@
-@import "_utils/colors";
+@import "_utils";
 
 .slider-button-block {
   height: 40px;
@@ -9,15 +9,15 @@
 
 .slider-button-block__button {
   width: 150px;
-  border: solid 1px white;
+  border: solid 1px $color-fff;
   border-radius: 0.3em;
-  color: white;
+  color: $color-fff;
   text-transform: uppercase;
   font-size: 12px;
 }
 
 .slider-button-block__button_active {
-  background-color: $primary-color;
+  background-color: $color-49b5f6;
   margin-right: 15px;
 }
 

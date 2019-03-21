@@ -11,7 +11,7 @@
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
-  background-color: $primary-color;
+  background-color: $color-49b5f6;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,19 +20,19 @@
 .features-list-item__h3 {
   overflow-wrap: break-word;
   font-family: Arial, Helvetica, sans-serif;
-  color: $header-color;
+  color: $color-3d4d53;
   margin-bottom: 10px;
   font-size: 15px;
 }
 
 .features-list-item__p {
   overflow-wrap: break-word;
-  color: $lightgray;
+  color: $color-d3d3d3;
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .features-list-item__icon {
-  color: $white;
+  color: $color-fff;
   font-size: 22px;
 }

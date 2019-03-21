@@ -1,3 +1,5 @@
+@import "_utils";
+
 .reasons-article {
   text-align: center;
   width: 40%;
@@ -8,7 +10,7 @@
 
 .reasons-article__h1 {
   font-size: 26px;
-  color: $header-color;
+  color: $color-3d4d53;
 }
 
 .reasons-article__p {

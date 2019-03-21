@@ -7,7 +7,7 @@
 .footer-middle-section1__h3 {
   font-size: 13px;
   margin-bottom: 10px;
-  color: $footer-middle-section_h;
+  color: $color-768896;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -16,7 +16,7 @@
   margin-bottom: 10px;
   overflow-wrap: break-word;
   font-family: Arial, Helvetica, sans-serif;
-  color: $footer-middle-section_p;
+  color: $color-768896;
 }
 
 .footer-middle-section1__link {
@@ -25,7 +25,7 @@
   font-size: 13px;
   border-bottom: 1px solid rgba(88,100,109,0.5);
   font-family: Arial, Helvetica, sans-serif;
-  color: #58646d;
+  color: $color-58646d;
 }
 
 .footer-middle-section1__logo-pic {
@@ -40,5 +40,5 @@
   padding: 15px;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  color: #93a4b1;
+  color: $color-93a4b1;
 }

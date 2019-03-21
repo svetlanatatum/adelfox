@@ -1,4 +1,4 @@
-@import "_utils/colors";
+@import "_utils";
 
 .carousel-indicators {
     right: 5%;
@@ -28,6 +28,6 @@
 }
 
 .carousel-indicators .active {
-    background-color: $primary-color;
-    border: solid 3px white;
+    background-color: $color-49b5f6;
+    border: solid 3px $color-fff;
 }

@@ -1,4 +1,6 @@
+@import "_utils";
+
 .header {
-  border-bottom: 3px solid lightgray;
-  box-shadow: 1px 1px 1px lightgray;
+  border-bottom: 3px solid $color-d3d3d3;
+  box-shadow: 1px 1px 1px $color-d3d3d3;
  } 
